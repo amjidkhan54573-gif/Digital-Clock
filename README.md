@@ -1,70 +1,58 @@
-# 🕐 Digital Clock
+# 🕐 Python Digital Clock
 
-> **A real-time desktop digital clock built with Python and Tkinter.**
+![Project Cover](assets/project-cover.svg)
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Tkinter](https://img.shields.io/badge/Tkinter-GUI-orange?style=for-the-badge)](https://docs.python.org/3/library/tkinter.html)
+> **A lightweight real-time desktop clock built with Python and Tkinter.**
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![Tkinter](https://img.shields.io/badge/Tkinter-GUI-orange?style=for-the-badge)](https://docs.python.org/3/library/tkinter.html)
 
 ## 🚀 Overview
 
-A lightweight desktop clock that displays the current time and date in a graphical Tkinter window and refreshes automatically every second.
+Displays the current time and date in a Tkinter window and refreshes automatically every second.
 
 ## ✨ Features
 
 - ⏱️ Real-time clock
-- 📅 Current date display
-- 🔄 Automatic one-second refresh
-- 🖥️ Simple desktop GUI
-- ⚡ Lightweight and easy to run
+- 📅 Current date
+- 🔄 One-second refresh
+- 🖥️ Desktop GUI
+- ⚡ Lightweight
 
-## 🧰 Technologies
-
-- Python
-- Tkinter
-- `time.strftime()`
-- Tkinter `after()` scheduling
-
-## ⚙️ How It Works
+## ⚙️ Workflow
 
 ```text
-Start Application
-       ↓
-Create Tkinter Window
-       ↓
-Read Current Time & Date
-       ↓
-Update Label
-       ↓
-Wait 1 Second
-       ↓
-Repeat
+Create Window → Read Time → Update UI → Wait 1 Second → Repeat
 ```
 
-## ▶️ Run the Project
+## ▶️ Run
 
 ```bash
 python main.py
 ```
 
-## 🧠 What I Practiced
+## 🧰 Tech Stack
+
+**Python · Tkinter · time.strftime() · after()**
+
+## 🧠 Skills Demonstrated
 
 - Tkinter GUI development
-- Working with date/time formatting
-- Updating UI elements dynamically
-- Scheduling repeated callbacks
-- Building a small event-driven desktop application
+- Date/time formatting
+- Dynamic UI updates
+- Scheduled callbacks
+- Event-driven programming
 
-## 🔧 Possible Improvements
+## 🔧 Future Improvements
 
-- Add 12/24-hour format switching
-- Add timezone selection
-- Add customizable themes
-- Add alarm functionality
-- Add stopwatch/timer modes
+- 12/24-hour switching
+- Timezone selection
+- Themes
+- Alarm
+- Stopwatch/timer
 
-## 👨‍💻 About Me
+## 👨‍💻 About
 
-I'm **Amjid Khan**, a Python developer focused on **web scraping, Selenium automation, and practical Python development**.
+**Amjid Khan** — Python developer focused on **web scraping, Selenium automation, and practical Python development**.
 
 - 💼 [LinkedIn](https://linkedin.com/in/amjid-khan-69231a397/)
 - 📧 `contact.amjid.freelancer@gmail.com`
